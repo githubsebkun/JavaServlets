@@ -1,0 +1,7 @@
+package website.web;
+
+import javax.servlet.http.*;
+
+public class HomeServlet extends servlet {
+
+}

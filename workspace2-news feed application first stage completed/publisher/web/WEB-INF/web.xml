@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<web-app
+xmlns="http://java.sun.com/xml/ns/j2ee"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+version="7.0.75">
+
+<listener>
+   <listener-class>publisher.web.Init</listener-class>
+</listener>
+
+   <servlet>
+      <servlet-name>news-feed</servlet-name>
+      <servlet-class>publisher.web.NewsFeedServlet</servlet-class>
+   </servlet>
+ 
+   <servlet-mapping>
+      <servlet-name>news-feed</servlet-name>
+      <url-pattern>/news.rss</url-pattern>
+   </servlet-mapping>
+   
+   
+   <servlet>
+     <servlet-name>home</servlet-name>
+     <servlet-class>publisher.web.HomeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>home</servlet-name>
+     <url-pattern>/home</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+     <servlet-name>list-news-items</servlet-name>
+     <servlet-class>publisher.web.ListNewsItemsServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+     <servlet-name>list-news-items</servlet-name>
+     <url-pattern>/list-news-items</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+   <servlet-name>view-news-item</servlet-name>
+   <servlet-class>publisher.web.ViewNewsItemServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+   <servlet-name>view-news-item</servlet-name>
+   <url-pattern>/view-news-item</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+   <servlet-name>edit-news-item</servlet-name>
+   <servlet-class>publisher.web.EditNewsItemServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>edit-news-item</servlet-name>
+   <url-pattern>/edit-news-item</url-pattern>
+</servlet-mapping>
+ 
+ <servlet>
+   <servlet-name>create-news-item</servlet-name>
+   <servlet-class>publisher.web.CreateNewsItemServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>create-news-item</servlet-name>
+   <url-pattern>/create-news-item</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>delete-news-item</servlet-name>
+   <servlet-class>publisher.web.DeleteNewsItemServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>delete-news-item</servlet-name>
+   <url-pattern>/delete-news-item</url-pattern>
+</servlet-mapping>
+   
+</web-app>

@@ -1,0 +1,47 @@
+to start mysql
+from win menu use mysql command prompt
+logn with pasword root
+>show databases;  
+>use pms;
+>show tables;
+>create databse sam;
+>drop database sam;
+================
+set path system variable (path) to C:\Program Files\MySQL\MySQL Server 5.7\bin
+=====================
+to start
+mysql -u root -p
+=========================
+
+
+you can also type commands in multiple lines
+>show
+>databases;
+
+you can terminate a command by typing \c
+>show
+>database
+>\c  
+will terminate the command
+
+mysql> create database publisher;
+mysql> grant all privileges on publisher.* to publisher@localhost identified by 'publisher';
+
+create table news_item
+(
+   id integer primary key,
+   title text not null,
+   url text not null
+);
+create table sequence
+(
+   next_value integer
+);
+insert into sequence value (1000);
+
+drop table if exists news_item;
+drop table if exists sequence;
+
+==============
+to find path of mysql
+select @@datadir;

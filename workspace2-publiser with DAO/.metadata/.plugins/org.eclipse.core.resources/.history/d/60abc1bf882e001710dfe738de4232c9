@@ -1,0 +1,14 @@
+<%@ page import="com.sun.syndication.feed.synd.SyndFeed" %> 
+<%@ page import="java.util.Iterator" %> 
+<jsp:useBean id="message" scope="request" class="java.lang.String" />
+<html>
+   <head>
+      <title>website</title>
+   </head>
+   <body>
+      <h1>Home</h1>
+      <h2><%=syndFeed.getTitle()%></h2>
+      <ul>
+      </ul>
+   </body>
+</html>

@@ -1,0 +1,13 @@
+<%@ page import="com.sun.syndication.feed.synd.SyndEntry" %> 
+<%@ page import="java.util.Iterator" %> 
+<jsp:useBean id="message" scope="request" class="java.lang.String" />
+<html>
+   <head>
+      <title>website</title>
+   </head>
+   <body>
+      <h1>Home</h1>
+      <ul>
+      </ul>
+   </body>
+</html>

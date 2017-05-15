@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
+<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+<fullyQualifiedTypeName name="javax.servlet.ServletContext"/>
+<fullyQualifiedTypeName name="java.net.URL"/>
+<fullyQualifiedTypeName name="com.sun.syndication.io.SyndFeedInput"/>
+<fullyQualifiedTypeName name="com.sun.syndication.feed.synd.SyndFeed"/>
+<fullyQualifiedTypeName name="com.sun.syndication.io.XmlReader"/>
+<fullyQualifiedTypeName name="java.net.URLConnection"/>
+<fullyQualifiedTypeName name="de.nava.informa.core.ChannelIF"/>
+<fullyQualifiedTypeName name="de.nava.informa.parsers.FeedParser"/>
+<fullyQualifiedTypeName name="de.nava.informa.impl.basic.ChannelBuilder"/>
+<fullyQualifiedTypeName name="de.nava.informa.core.ParseException"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+</qualifiedTypeNameHistroy>

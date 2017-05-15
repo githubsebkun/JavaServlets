@@ -1,0 +1,12 @@
+package publisher.web;
+
+import java.util.logging.Logger;
+
+import javax.servlet.http.HttpServlet;
+
+
+
+public class NewsFeedServlet extends HttpServlet
+{
+	private Logger logger = Logger.getLogger(this.getClass());
+}

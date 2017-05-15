@@ -1,0 +1,12 @@
+<%@ page import="com.sun.syndication.feed.synd.SyndFeed" %> 
+<%@ page import="com.sun.syndication.feed.synd.SyndEntry" %> 
+<%@ page import="java.util.Iterator" %> 
+<jsp:useBean id="syndFeed" scope="request" type="SyndFeed" />
+<html>
+   <head>
+      <title>website</title>
+   </head>
+   <body>
+      <h1>Home</h1>
+   </body>
+</html>

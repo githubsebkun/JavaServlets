@@ -1,0 +1,8 @@
+package publisher.web;
+
+import javax.servlet.ServletContextListener;
+
+public class Init extends ServletContextListener
+{
+
+}

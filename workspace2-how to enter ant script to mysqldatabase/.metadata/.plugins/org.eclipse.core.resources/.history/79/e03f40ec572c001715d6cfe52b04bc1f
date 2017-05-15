@@ -1,0 +1,19 @@
+<%@ page import="com.sun.syndication.feed.synd.SyndFeed" %> 
+<%@ page import="com.sun.syndication.feed.synd.SyndEntry" %> 
+<%@ page import="java.util.Iterator" %> 
+<jsp:useBean id="syndFeed" type="SyndFeed" scope="request" />
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>GUL by Weblabs</title>
+</head>
+<body>
+	<form action="/login.do" method="post">
+	<!--   showing an error message in case of invalid credentials-->
+	<p><font color=red>${errorMessage}</font></p>
+	Enter your name<input type="text" name="name"/>
+	Enter your password<input type="password" name="passwd"/>
+	<input type="submit" value="submint now"/>
+	</form>
+</body>
+</html>

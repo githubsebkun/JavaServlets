@@ -1,0 +1,4 @@
+insert into news_item (id, title, url) values (1, 'CNN', 'http://www.cnn.com/');
+insert into news_item (id, title, url) values (2, 'FOX News', 'http://www.foxnews.com/');
+insert into news_item (id, title, url) values (2, 'BBC News', 'http://news.bbc.co.uk/2/hi/help/rss/default.stm');
+insert into news_item (id, title, url) values (2, 'Manorama News', 'http://www.manoramaonline.com/');
